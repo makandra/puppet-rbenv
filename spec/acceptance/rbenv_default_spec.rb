@@ -36,6 +36,13 @@ describe 'rbenv default' do
         user   => $user,
         ruby   => $ruby_version,
       }
+
+      rbenv::rubygems { 'tester-3.4.1':
+        user    => $user,
+        version => '3.4.1',
+        ruby    => $ruby_version,
+        home    => $home,
+      }
     MANIFEST
   end
 
@@ -62,5 +69,9 @@ describe 'rbenv default' do
 
   describe command "su - rbenv-user -s /bin/bash -c 'gem info geordi'" do
     its(:stdout) { should contain 'Henning Koch' }
+  end
+
+  describe command "su - rbenv-user -s /bin/bash -c 'gem --version'" do
+    its(:stdout) { should contain '3.4.1' }
   end
 end

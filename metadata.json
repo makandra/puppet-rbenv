@@ -1,6 +1,6 @@
 {
   "name": "makandra-rbenv",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": "makandra",
   "summary": "rbenv Ruby Version Manager module",
   "license": "MIT",

@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.2.0](https://github.com/makandra/puppet-rbenv/tree/v2.2.0) (2025-04-23)
+
+[Full Changelog](https://github.com/makandra/puppet-rbenv/compare/v2.1.0...v2.2.0)
+
+**Implemented enhancements:**
+
+- add rubygems version management [\#15](https://github.com/makandra/puppet-rbenv/issues/15)
+
+## [v2.1.0](https://github.com/makandra/puppet-rbenv/tree/v2.1.0) (2025-03-13)
+
+[Full Changelog](https://github.com/makandra/puppet-rbenv/compare/v2.0.0...v2.1.0)
+
+**Merged pull requests:**
+
+-  chore: use rbenv from rbenv GitHub Organization [\#4](https://github.com/makandra/puppet-rbenv/pull/4) ([moritz-makandra](https://github.com/moritz-makandra))
+
 ## [v2.0.0](https://github.com/makandra/puppet-rbenv/tree/v2.0.0) (2025-03-13)
 
 [Full Changelog](https://github.com/makandra/puppet-rbenv/compare/f3a36e786a980af99ce7920d180bf8b4944ef822...v2.0.0)

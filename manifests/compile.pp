@@ -71,7 +71,7 @@ define rbenv::compile (
     user        => $user,
     group       => $group,
     cwd         => $home_path,
-    environment => ["HOME=${home_path}", "CONFIGURE_OPTS=${configure_opts}"],
+    environment => ["HOME=${home_path}", "RUBY_CONFIGURE_OPTS=${configure_opts}"],
     creates     => "${versions}/${ruby}",
     path        => $path,
     logoutput   => 'on_failure',
